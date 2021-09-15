@@ -14,11 +14,18 @@
         }
     },
     "extract_dir": "ipe-7.2.24",
-    "bin": "bin\\ipe.exe",
+    "bin": [
+        "bin\\ipe.exe",
+        "bin\\ipepresenter.exe"
+    ],
     "shortcuts": [
         [
             "bin\\ipe.exe",
             "Ipe"
+        ],
+        [
+            "bin\\ipepresenter.exe",
+            "IpePresenter"
         ]
     ],
     "checkver": {
