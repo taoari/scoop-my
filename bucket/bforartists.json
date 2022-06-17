@@ -1,0 +1,20 @@
+{
+    "version": "3.2.0",
+    "description": "3D creation suite",
+    "homepage": "https://www.bforartists.de/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.bforartists.de/data/binaries/bforartists3_320.zip",
+            "hash": "6ccf4c471dec5945b9a6aa72a2e58b41b6a2dd2fc0af9151b4cb011320bb3d92",
+            "extract_dir": "bforartists3_320"
+        }
+    },
+    "bin": "bforartists.exe",
+    "shortcuts": [
+        [
+            "bforartists.exe",
+            "Bforartists"
+        ]
+    ]
+}
