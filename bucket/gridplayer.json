@@ -1,0 +1,30 @@
+{
+    "version": "0.4.3",
+    "description": "GridPlayer play videos side-by-side.",
+    "homepage": "https://github.com/vzhd1701/gridplayer",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vzhd1701/gridplayer/releases/download/v0.4.3/GridPlayer-0.4.3-win64-portable.zip",
+            "hash": "1A233CB642CDEB3170C098651BFDC3EC9017D390B9991B53B1A9F03C5ACA6D39",
+            "extract_dir": "GridPlayer"
+        }
+    },
+    "bin": "GridPlayer.exe",
+    "shortcuts": [
+        [
+            "GridPlayer.exe",
+            "GridPlayer"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/vzhd1701/gridplayer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vzhd1701/gridplayer/releases/download/v$version/GridPlayer-$version-win64-portable.zip"
+            }
+        }
+    }
+}
