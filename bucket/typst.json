@@ -1,0 +1,30 @@
+{
+    "version": "0.1.1",
+    "description": "A new markup-based typesetting system",
+    "homepage": "https://typst.app/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/typst/typst/releases/download/v0.1.1/typst-x86_64-pc-windows-msvc.zip",
+            "hash": "",
+            "extract_dir": "typst"
+        }
+    },
+    "bin": "typst.exe",
+    "shortcuts": [
+        [
+            "typst.exe",
+            "typst"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/typst/typst"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/typst/typst/releases/download/v$version/typst-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
